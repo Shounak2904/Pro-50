@@ -1,0 +1,40 @@
+h1{
+    color: rgb(255, 0, 0);
+}
+*{
+    border:rgb(156, 153, 153) solid;
+}
+
+
+.header{background-color: rgb(198, 98, 184);
+display: flex;
+justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly
+    /* color:rgb(242, 255, 0); */
+}
+
+.footer{
+    display: flex;
+    flex-flow: wrap;
+   justify-content: flex-end
+
+}
+
+p,h2{
+    text-align: center;
+}
+
+.site-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+body{
+    background-color: rgb(156, 153, 153);
+}
